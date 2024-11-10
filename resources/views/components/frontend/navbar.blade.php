@@ -1,8 +1,8 @@
 <!--Medium Device-->
-<div class="mb-0 py-2 justify-between items-center hidden md:flex">
+<div class="mb-0 py-2 justify-between items-center hidden md:flex bg-gray-100 hover:bg-gray-200 transition-colors duration-300">
     <a href="/" class="flex items-center">
         <img src="{{\App\Models\Config::getPath(\App\Models\Config::USER_PHOTO)}}" alt="logo" class="w-20 object-cover object-center">
-        <div class="ml-4 font-semibold">girls who code</div>
+        <div class="ml-4 font-semibold text-gray-800">girls who code</div>
     </a>
     <form action="{{route("search-article")}}">
         <div class="flex">

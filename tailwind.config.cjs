@@ -15,6 +15,11 @@ export default {
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'brand-blue': '#007ace',
+                'brand-pink': '#ff49db',
+                'brand-yellow': '#ffc82c',
+            },
         },
     },
 
